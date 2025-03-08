@@ -1,0 +1,25 @@
+{
+  "name": "fake-user-api",
+  "version": "1.0.0",
+  "description": "A free random user API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fake-user",
+    "random-user",
+    "api",
+    "free-api"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodeman": "^1.1.2"
+  }
+}
